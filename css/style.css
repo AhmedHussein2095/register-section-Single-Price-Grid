@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: karla, sans-serif;
+    font-weight: 16px;
+    font-weight: 400;
+    
+    
+}
+
+
+
+/*  section 1  */
+
+section.first{
+    background-color: #fff;
+    padding: 2.5em;
+}
+
+.first p{
+    padding-bottom: 1.5em;
+}
+
+.first p:first-of-type{
+    color: hsl(179, 62%, 43%) ;
+    font-weight: 700;
+}
+.first p:nth-of-type(2){
+    color: hsl(71, 73%, 54%) ;
+}
+
+.first p:nth-of-type(3) {
+    line-height: 25px;
+    color: hsl(218, 22%, 67%);
+    width: 90%;
+}
+
+
+/* section 2 */
+
+section.second{
+    
+    background-color: hsl(179, 62%, 43%);   /* cyan */
+
+    padding: 20px 2.5em;
+    
+}
+
+.second span{
+    display: inline-block;
+    padding-bottom: 1.25em;
+}
+
+
+
+.second span:first-of-type{
+    color: #fff;
+    font-weight: 700;
+}
+
+.second p:first-of-type {
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff ;
+    padding-bottom: .75em;
+}
+
+#special {
+    display: inline;
+    font-size: 1em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7) ;
+}
+
+.second p {
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.second h2 {
+    margin: 40px auto 0 auto;
+    width: 16em;
+    height: 3em;
+    background-color: hsl(71, 73%, 54%) ;
+    border-radius: 2%;
+    color: #fff;
+    text-align: center;
+    font: 400 1.25em karla, sans-serif;
+    padding: .9em;
+}
+
+.second h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+.second  h2:hover {
+   border: 1px solid #fff;
+   transform: scale(1.2);
+}
+
+/* section 3 */ 
+
+section.third {
+    background-color: hsl(179, 87%, 42%);
+    padding: 20px 2.5em;
+}
+
+.third p {
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.third ul {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.third ul li {
+    padding: .15em 0;
+}
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:1139px){
+
+    .container{
+        overflow: hidden;
+        
+    }
+
+    section.second{
+        width: 50%;
+        height: 300px;
+        float: left;
+        padding: 50px 3em;
+    }
+    
+    section.third{
+        width: 50%;
+        height: 300px;
+        float: left;
+        padding: 50px 3em;
+    }
+
+}
+
+@media (min-width:1141px){
+
+    .container{
+        overflow: hidden;
+        
+    }
+
+    section.second{
+        width: 50%;
+        height: 300px;
+        float: left;
+        padding: 50px 3em;
+    }
+    
+    section.third{
+        width: 50%;
+        height: 300px;
+        float: left;
+        padding: 50px 3em;
+    }
+}
+
+@media (min-width:1200){
+
+    .container{
+        overflow: hidden;
+        
+    }
+
+    section.second{
+        width: 50%;
+        height: 300px;
+        float: left;
+        padding: 50px 3em;
+    }
+    
+    section.third{
+        width: 50%;
+        height: 300px;
+        float: left;
+        padding: 50px 3em;
+    }
+}
